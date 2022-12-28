@@ -1,23 +1,13 @@
-/*A bracket sequence is called regular if it is possible to obtain correct arithmetic expression by inserting characters «+» and «1» 
-into this sequence. For example, sequences «(())()», «()» and «(()(()))» are regular, while «)(», «(()» and «(()))(» are not.
-
-One day Johnny got bracket sequence. He decided to remove some of the brackets from it in order to obtain a regular bracket sequence. 
-What is the maximum length of a regular bracket sequence which can be obtained?
-
-Input
-Input consists of a single line with non-empty string of «(» and «)» characters. Its length does not exceed 106.
-
-Output
-Output the maximum possible length of a regular bracket sequence.
+/*Given the head of a singly linked list, return true if it is a 
+palindrome or false otherwise.
 
 
 Example
-Input: 
-(()))(
-Output: 4
+Input: head = [1,2,2,1]
+Output: true
 
-Input: ((()())
-Output: 6
+Input: head = [1,2]
+Output: false
 
 */
 #include<bits/stdc++.h>
