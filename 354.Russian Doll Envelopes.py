@@ -46,7 +46,7 @@ class Solution:
 # or:
 n = len(envelopes)
 if n == 0:
-	print("ngu")
+	return 0
 
 envelopes.sort(key=lambda x: (x[0], -x[1]))
 dp = [1] * n
@@ -56,4 +56,4 @@ for i in range(1, n):
 		if envelopes[i][0] > envelopes[j][0] and envelopes[i][1] > envelopes[j][1]:
 			dp[i] = max(dp[i], dp[j] + 1)
 
-print(max(dp))
+return (max(dp))
