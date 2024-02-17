@@ -1,1 +1,1 @@
-Practise some the algorithm in LeetCode
+## Practise some of the algorithms in LeetCode
